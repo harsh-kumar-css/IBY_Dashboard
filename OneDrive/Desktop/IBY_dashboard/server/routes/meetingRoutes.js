@@ -9,7 +9,7 @@ import {
 } from "../controllers/meetingsController.js";
 
 router.get("/getMeetings", getMeetings);
-router.get("/getMeeting", getMeeting);
+router.get("/getMeeting/:id", getMeeting);
 router.post("/createMeeting", createMeeting);
 router.patch("/addUser/:id", addUser);
 

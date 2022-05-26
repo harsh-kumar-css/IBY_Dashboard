@@ -11,7 +11,7 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
-app.use("/", meetingRoutes);
+app.use("/api/v1", meetingRoutes);
 
 const CONNECTION_URL =
   "mongodb+srv://Harsh:j7T1wKhjT10ydA1a@cluster0.9rpye.mongodb.net/test";

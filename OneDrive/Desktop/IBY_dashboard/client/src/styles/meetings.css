@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.sidebar {
+  height: 89vh;
+  /* background-color: aqua; */
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.meetings {
+  background-color: #282c34;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
